@@ -1,0 +1,6 @@
+{
+  "name": "TruthTrace",
+  "description": "Open-source research and epistemological analysis tool for evaluating claims, organizing evidence, comparing sources, and generating structured reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

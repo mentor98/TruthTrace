@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Plus Jakarta Sans', sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+  }
+
+  .font-serif-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .font-mono-code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
